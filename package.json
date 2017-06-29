@@ -1,0 +1,29 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshDev1205/platzom.git"
+  },
+  "keywords": [
+    "platzi",
+    "platzom",
+    "fundamento",
+    "javascript",
+    "js"
+  ],
+  "author": "Joseph Ospina <Josh.999126@gmail.com> (http://twitter.com/josh_dev1205)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
